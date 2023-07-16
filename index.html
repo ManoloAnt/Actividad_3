@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Merca online</title>
-    <link rel="stylesheet" 
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
-    crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body class="p-3 mb-2 bg-primary text-white">
     
@@ -17,7 +13,6 @@
 
     <div class="container text-center">
         <div class="row">
-
             <div class="col-2 mb-2">
                 <label class="fw-bold">Item</label>
             </div>
@@ -29,7 +24,6 @@
             <div class="col-2 mb-2">
                 <button type="button" class="btn btn-warning" onclick="añadirItem()">Añadir</button>
             </div>
-
         </div>
         <div style="margin-top: 5%;">
             <h2 class="text-center mb-3"> Listado de Articulos </h2>
@@ -37,6 +31,12 @@
             <div class="row" id="items">No hay articulos</div>
         </div>
 
+    </div>
+
+    <div class="row">
+        <div class="col text-center">
+            <button type="button" class="btn btn-primary" onclick="window.location.href = 'index-object.html'">Ir a la otra página</button>
+        </div>
     </div>
 
     <script src="js/arrayScript.js"></script>
